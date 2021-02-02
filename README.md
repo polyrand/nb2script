@@ -25,7 +25,7 @@ If you use the `--cli` option, the file will begin with a shebang. Otherwise, it
 
 ## Alternatives
 
-I made this after using [nbdev](). Nbdev is a library that allows you to develop a python library in Jupyter Notebooks, putting all your code, tests, and documentation in one place. I have used it many times and I absolutely love it. However, it makes you use the library for the whole workflow. I wanted to create something without dependencies, simple and that I could use in any project, without having to install nbdev.
+I made this after using [nbdev](https://github.com/fastai/nbdev/). Nbdev is a library that allows you to develop a python library in Jupyter Notebooks, putting all your code, tests, and documentation in one place. I have used it many times and I absolutely love it. However, it makes you use the library for the whole workflow. I wanted to create something without dependencies, simple and that I could use in any project, without having to install nbdev.
 
 I have even kept the line that they add to every exported file:
 
