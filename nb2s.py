@@ -8,8 +8,8 @@ import json
 
 def read_nb(fname):
     "Read the notebook in `fname`."
-    with open(fname, "r") as f:
-        data = json.loads(f.read())
+
+    data = json.loads(Path(fname).read_text())
 
     for c in data["cells"]:
         c["source"] = "".join(c["source"])
@@ -18,7 +18,7 @@ def read_nb(fname):
 
 
 
-pattern: str = r"\s*\#\s*export[si]?"
+pattern: str = r"\s*\#\s*export[s]?"
 pat = re.compile(pattern, re.IGNORECASE | re.MULTILINE)
 
 
