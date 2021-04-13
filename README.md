@@ -7,13 +7,13 @@
 This is a single script with 0 dependencies, so the best way to install may be just copying it to wherever you like. Then you can run it:
 
 ```sh
-python3 nb2script.py --help
+python3 nb2s.py --help
 ```
 
 ## Usage example
 
 ```sh
-python3 nb2script.py -n nb2script.ipynb -s nb2s.py --cli
+python3 nb2s.py -n nb2script.ipynb -s nb2s.py --cli
 ```
 
 If you use the `--cli` option, the file will begin with a shebang. Otherwise, it will be converted to a standard Python module.
