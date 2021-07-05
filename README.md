@@ -49,8 +49,10 @@ The script is created from a Jupyter notebook that can convert itself to a CLI s
 
 ## Release History
 
-* 1.0
-    * Initial release
+* 0.2
+	* enable writing some cells to another file 
+* 0.1
+	* Initial release
 
 ## Meta
 
